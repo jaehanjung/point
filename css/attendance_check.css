@@ -241,6 +241,7 @@ body {
         padding: 10px 15px;
         box-sizing: border-box;
         border: 0.5px solid #4444e2;
+        height: 39px;
     }
 
     .Present_submit_box {
@@ -267,7 +268,6 @@ body {
     }
 
     #customers {
-        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
         border-collapse: collapse;
         width: 100%;
     }
