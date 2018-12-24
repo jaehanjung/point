@@ -47,8 +47,10 @@
                 <form action="#" class="one_word clearfix" name="person_info" method="get">
                     <fieldset>
                         <legend>출석체크 한마디</legend>
-                        <p class="Present_point_id">출석체크 한마디</p>
-                        <input type="text" maxlength="10" name="id" required placeholder="띄워쓰기 포함 10글자까지 입력 가능합니다." />
+                        <label for="check">
+                            <p class="Present_point_id">출석체크 한마디</p>
+                            <input type="text" id="check" maxlength="10" name="id" required placeholder="띄워쓰기 포함 10글자까지 입력 가능합니다." />
+                        </label>
                         <div class="Present_submit_box">
                             <input class="Present_submit" type="submit" value="작성" />
                         </div>

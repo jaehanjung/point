@@ -39,10 +39,14 @@
                 <form action="#" class="points" name="person_info" method="get">
                     <fieldset>
                         <legend>개인 정보 입력</legend>
-                        <p class="Present_point_id">닉네임</p>
-                        <input type="text" name="id" required placeholder="선물하실 분의 닉네임을 입력해주세요." />
-                        <p class="Present_point_point">포인트</p>
-                        <input type="number" name="point" required placeholder="선물하실 포인트를 입력해주세요." /><br>
+                        <label for="userid">
+                            <p class="Present_point_id">닉네임</p>
+                            <input type="text" id="userid" name="userid" required placeholder="선물하실 분의 닉네임을 입력해주세요." />
+                        </label>
+                        <label for="point">
+                            <p class="Present_point_point">포인트</p>
+                            <input type="number" id="point" name="point" required placeholder="선물하실 포인트를 입력해주세요." /><br>
+                        </label>
                         <div class="Present_submit_box">
                             <input class="Present_submit" type="submit" value="포인트 보내기" />
                         </div>
